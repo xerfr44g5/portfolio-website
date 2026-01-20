@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ahmed Alamri — IT Student</title>
+  <meta name="description" content="Portfolio of Ahmed Alamri — IT student. Projects, skills, resume and contact." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Ahmed Alamri</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+      <nav id="main-nav" class="nav" role="navigation">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Hi — I'm Ahmed, an IT student building web apps & tools.</h1>
+          <p>I enjoy learning full-stack development, solving problems, and contributing to open-source. Currently exploring cloud, databases, and UX design.</p>
+          <p class="hero-cta">
+            <a class="btn" href="projects.html">See Projects</a>
+            <a class="btn ghost" href="resume.html">Download Resume</a>
+          </p>
+        </div>
+        <div class="hero-image" aria-hidden="true">
+          <img src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=1200&auto=format&fit=crop&ixlib=rb-4.0.3&s=3a6b7b0c6e9b6c1b8b7b7d9a2b3f2db4" alt="Laptop and notes on desk">
+        </div>
+      </div>
+    </section>
+
+    <section class="container featured">
+      <h2>Featured Projects</h2>
+      <div class="cards">
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=8805b5d89fa2b6b9b84d2b6a6b8c6f3d" alt="Project screenshot">
+          <div class="card-body">
+            <h3>Campus Event Manager</h3>
+            <p>Web app for listing and managing campus events with role-based access and notifications.</p>
+            <p><a class="btn small" href="projects.html#project-1">View</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1526378727830-08a9b1c7efc0?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=ed16019f66b9b2dc2e1f5e9f4c0a9736" alt="Project screenshot">
+          <div class="card-body">
+            <h3>Personal Finance Dashboard</h3>
+            <p>Dashboard to visualize expenses and budgets using charts and imported CSVs.</p>
+            <p><a class="btn small" href="projects.html#project-2">View</a></p>
+          </div>
+        </article>
+
+        <article class="card">
+          <img src="https://images.unsplash.com/photo-1515879218367-8466d910aaa4?q=80&w=800&auto=format&fit=crop&ixlib=rb-4.0.3&s=8e5a0f8b2fbb2e5e1e2d1a9f8a0b3c4d" alt="Project screenshot">
+          <div class="card-body">
+            <h3>Chatbot for Helpdesk</h3>
+            <p>Rule-based chatbot prototype to assist students with IT support and FAQs.</p>
+            <p><a class="btn small" href="projects.html#project-3">View</a></p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ahmed Alamri — IT Student. 
+<a href="contact.html">Contact</a></p><a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

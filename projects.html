@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Ahmed Maria</title>
+  <meta name="description" content="Projects by Ahmed Maria — portfolio gallery." />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">Ahmed Maria</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="main-nav">☰</button>
+      <nav id="main-nav" class="nav" role="navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h1>Projects</h1>
+      <p>Here are a few projects I built while learning full-stack development.</p>
+
+      <div class="project-list">
+        <article id="project-1" class="project">
+          <h2>Campus Event Manager</h2>
+          <p>Stack: Node.js, Express, MongoDB, EJS</p>
+          <p>Features: Event creation, RSVP, admin panel, email notifications.</p>
+          <p><a class="btn small" href="#">Source</a> <a class="btn ghost small" href="#">Live</a></p>
+        </article>
+
+        <article id="project-2" class="project">
+          <h2>Personal Finance Dashboard</h2>
+          <p>Stack: React (CRA), Chart.js, Firebase</p>
+          <p>Features: CSV import, charts, category budgets, local storage.</p>
+          <p><a class="btn small" href="#">Source</a> <a class="btn ghost small" href="#">Live</a></p>
+        </article>
+
+        <article id="project-3" class="project">
+          <h2>Helpdesk Chatbot Prototype</h2>
+          <p>Stack: Python Flask backend + simple rule engine</p>
+          <p>Features: FAQ bot, ticket creation integration, training data included.</p>
+          <p><a class="btn small" href="#">Source</a> <a class="btn ghost small" href="#">Demo</a></p>
+        </article>
+
+        <article id="project-4" class="project">
+          <h2>Portfolio Website (this one)</h2>
+          <p>Stack: HTML, CSS, JS — responsive and accessible layout.</p>
+          <p><a class="btn small" href="index.html">View</a></p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> Ahmed Maria — IT Student. <a href="contact.html">Contact</a></p><a href="https://www.instagram.com" target="_blank">Instagram</a>
+        <a href="https://www.tiktok.com" target="_blank">TikTok</a>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
